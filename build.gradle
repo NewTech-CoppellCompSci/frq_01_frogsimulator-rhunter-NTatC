@@ -30,8 +30,8 @@ plugins {
  * JUnit5 library is removed.
  * This may be an Eclipse only issue.
  */
-sourceCompatibility = 10 
-targetCompatibility = 10
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
 	mavenCentral()
@@ -85,9 +85,7 @@ sourceSets {
 		}
     }
     test {
-       	java {
-       	//my test classes are in a separate source folder srcTests
-       	//add src if that's where your's are	
+       	java {	
 		srcDirs = ["src", "test/java"] 
         }
     }
