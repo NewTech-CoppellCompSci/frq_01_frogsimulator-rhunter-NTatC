@@ -5,7 +5,7 @@ public class FrogSimulation {
 	private int goalDistance;	//distance, in inches, from the starting position to the goal
 	private int maxHops;		//maximum number of hops allowed to reach the goal
 	
-	
+	//for testing
 	
 	//Precondition: dist > 0; numHops > 0
 	public FrogSimulation(int dist, int numHops) {
