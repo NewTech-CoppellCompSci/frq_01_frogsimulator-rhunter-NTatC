@@ -21,7 +21,7 @@ I would not have gotten this far on my own!
 
 plugins {
 	id 'java'
-	id 'eclipse'  //not sure this is totally necessary.  But Gradle documentation seems to think so.
+	//id 'eclipse'  //not sure this is totally necessary.  But Gradle documentation seems to think so.
 }
 
 /*
@@ -41,8 +41,8 @@ repositories {
 dependencies {
 	//5.7.1 is just what version of jupiter i'm useing.  Change it to yours
 	testImplementation('org.junit.jupiter:junit-jupiter-api:5.7.1')
-	implementation('org.junit.jupiter:junit-jupiter-api:5.7.1')
-	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+	//implementation('org.junit.jupiter:junit-jupiter-api:5.7.1')
+	//testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 }
 
 test {
