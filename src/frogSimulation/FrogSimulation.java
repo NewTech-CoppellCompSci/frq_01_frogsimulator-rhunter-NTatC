@@ -17,9 +17,6 @@ public class FrogSimulation {
 	//Returns an int representing the distance, in inches, to be moved when the frog hops
 	public int hopDistance()
 	{	
-		
-		/* implementation not shown */
-		
 		return 0;
 	}
 	
@@ -33,6 +30,21 @@ public class FrogSimulation {
 		
 		/* to be implemented in part (a) */
 		
+		int totalDistance = 0;
+		for (int i = 0; i < maxHops; i++) {
+			
+			int dist = hopDistance();
+			
+			totalDistance += dist;
+			
+			if(totalDistance >= goalDistance) {
+				return true;
+			}
+			else if (totalDistance < 0) {
+				return false;
+			}
+		}
+		
 		return false;
 	}
 	
@@ -45,8 +57,18 @@ public class FrogSimulation {
 	public double runSimulations(int num) {
 		
 		/* to be implemented in part (b) */
+		int numWins = 0, numLosses = 0;
 		
-		return 0;
+		for (int i = 0; i < num; i++) {
+			if (simulate()) {
+				numWins++;
+			}
+			else {
+				numLosses++;
+			}
+		}
+		
+		return (double) numWins / (numWins + numLosses);
 	}
 	
 	
