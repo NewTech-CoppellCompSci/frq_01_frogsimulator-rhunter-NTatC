@@ -60,10 +60,8 @@ test {
 		If it throws AssertionError, I switch back to Standard.out and print hints as to why their code
 		may have failed.
 		Then I print
-		YOUR OUTPUT:
-		<student output>
-		HINT:
-		<my hint>
+		YOUR OUTPUT: <student output>
+		HINT: <my hint>
 		*/
 		events "PASSED", "SKIPPED", "FAILED", "STANDARD_OUT"
 		

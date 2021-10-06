@@ -1,10 +1,7 @@
 package tests;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.Before;
 import org.junit.jupiter.api.*;
-import frogSimulation.FrogSimulation;
+
 
 class TestA {
 
@@ -50,7 +47,7 @@ class TestA {
 		try {
 			Assertions.assertTrue(fs1.simulate());
 			if (fs1.getCount() != 9) {
-				System.out.println("Test 2 failed: "
+				System.out.println("Test #2 failed: "
 								 + "Should have jumped 5 times");
 				Assertions.fail();
 			}
