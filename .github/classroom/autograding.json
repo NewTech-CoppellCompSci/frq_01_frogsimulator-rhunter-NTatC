@@ -3,7 +3,7 @@
     {
       "name": "Part A Test #1",
       "setup": "",
-      "run": "gradle test --tests TestA.test1()",
+      "run": "gradle test --tests TestA.test1",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -13,7 +13,7 @@
     {
       "name": "Part A Test #2",
       "setup": "",
-      "run": "gradle test --tests TestA.test2()",
+      "run": "gradle test --tests TestA.test2",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -23,7 +23,7 @@
     {
       "name": "Part A Test #3",
       "setup": "",
-      "run": "gradle test --tests TestA.test3()",
+      "run": "gradle test --tests TestA.test3",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -33,7 +33,7 @@
     {
       "name": "Part A Test #4",
       "setup": "",
-      "run": "gradle test --tests TestA.test4()",
+      "run": "gradle test --tests TestA.test4",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "Part B Test #1",
       "setup": "",
-      "run": "gradle test --tests TestB.test1()",
+      "run": "gradle test --tests TestB.test1",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -53,7 +53,7 @@
     {
       "name": "Part B Test #2",
       "setup": "",
-      "run": "gradle test --tests TestB.test2()",
+      "run": "gradle test --tests TestB.test2",
       "input": "",
       "output": "",
       "comparison": "included",
