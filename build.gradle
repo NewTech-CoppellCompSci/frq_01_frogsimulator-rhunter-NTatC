@@ -41,8 +41,8 @@ repositories {
 dependencies {
 	//5.7.1 is just what version of jupiter i'm useing.  Change it to yours
 	testImplementation('org.junit.jupiter:junit-jupiter-api:5.7.1')
-	//implementation('org.junit.jupiter:junit-jupiter-api:5.7.1')
-	//testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+	implementation('org.junit.jupiter:junit-jupiter-api:5.7.1')
+	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 }
 
 test {
